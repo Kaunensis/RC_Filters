@@ -1,0 +1,29 @@
+<?php
+
+$labels = array();
+$labels['filters'] = 'Filtrai (vietiniai)';
+$labels['storedfilters'] = 'Išsaugoti filtrai';
+$labels['whatfilter'] = 'Filtruojamas laukas';
+$labels['searchstring'] = 'Lauke yra';
+$labels['moveto'] = 'Perkelti į';
+$labels['from'] = 'From';
+$labels['to'] = 'To';
+$labels['cc'] = 'CC';
+$labels['subject'] = 'Subject';
+$labels['delete'] = 'Pašalinti';
+$labels['casesensitive'] = 'Skiriamos didžiosios ir mažosios raidės';
+
+$messages = array();
+$messages['nosearchstring'] = "Laukelis 'Filtruojamas laukas' negali būti tuščias.";
+$messages['successfullysaved'] = "Filtras sėkmingai išsaugotas.";
+$messages['unsuccessfullysaved'] = "Klaida: filtras neišsaugotas.";
+$messages['successfullydeleted'] = "Filtras sėkmingai pašalintas.";
+$messages['unsuccessfullydeleted'] = "Klaida: filtras nepašalintas.";
+$messages['msg_if_field'] = 'Jeigu lauke';
+$messages['msg_contains'] = 'yra';
+$messages['msg_and_is'] = 'ir yra';
+$messages['msg_move_msg_in'] = 'žinutė perkeliama į';
+$messages['msg_no_stored_filters'] = "Kol kas nėra išsaugotų filtrų.";
+$messages['msg_moved_by_rule'] = "Žinutė(-s) perkelta(-os) filtruojant...";
+
+?>
